@@ -35,7 +35,7 @@ def user_display():
         with open ('dieukhoanthuvien.txt','r',encoding = 'utf-8') as f:
           NOI_DUNG = f.read()
           print('NOI_DUNG')
-      except FILE NOT FOUND:
+      except:
         print(f"ERROR: NOT TO FOUND THIS FILE '{FILE_NAME}'.")
         print(' TRY ONE MORE AGAIN ')
       except 
